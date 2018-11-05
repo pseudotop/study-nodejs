@@ -1,4 +1,4 @@
-module.exports = (sequelize, DataType) => (
+module.exports = (sequelize, DataTypes) => (
   sequelize.define('auction', {
     bid: {
       type: DataTypes.INTEGER,
